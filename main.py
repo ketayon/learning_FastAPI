@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get('/')
 def index():
-    return 'Hi!'
+    return {'data': {'name': 'Max'}}
